@@ -7,4 +7,5 @@
 #		wavre.py
 #		
 #when importing the package, searches through the directories on sys.path looking for the package subdirectory.
-#	
+#
+#coding:utf-8
