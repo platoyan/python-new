@@ -11,3 +11,13 @@ app=Flask(__name__)
 def he(name=None):
 	return render_template('he.html',name=name)
 
+#Flask will look for templates in the templates folder.
+#if your application is a module, this folder is next to that module:
+#/application.py
+#/templates
+#	/hello.html
+#if it’s a package it’s actually inside your package:
+#/application
+#	/__init__.py
+#	/templates
+#		/hello.html

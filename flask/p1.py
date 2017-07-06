@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__) #An instance of Flask will be an WSGI application
                       #First argument is the name of the application's module or package.
-                      #f you are using a single module,you should use __name__
+                      #if you are using a single module,you should use __name__
                       #This is needed so that Flask knows where to look for templates, static files, and so on
                       #
 
