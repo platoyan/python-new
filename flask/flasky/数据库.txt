@@ -1,0 +1,7 @@
+1. 使用Flask-SQLAlchemy管理数据库
+pip install flask-sqlalchemy
+FLask-SQLAlchemy数据库URL：
+MySQL					mysql://username:password@hostname/database
+Postgres				postgresql://username:password@hostname/database
+SQLite（ Unix）			sqlite:////absolute/path/to/database
+SQLite（ Windows）		sqlite:///c:/absolute/path/to/database

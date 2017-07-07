@@ -86,3 +86,5 @@ Jinja2 还支持宏:
 初始化Flask-Bootstrap
 	from flask.ext.bootstrap import Bootstrap
 	bootstrap=Bootstrap(app)
+
+13. 
