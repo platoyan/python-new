@@ -81,5 +81,8 @@ Jinja2 还支持宏:
 10. 包含模板代码片段:
 {% include 'common.html' %}
 11. 模板继承
-
-
+12. Flask Bootstrap
+使用pip安装：pip install flask-bootstrap
+初始化Flask-Bootstrap
+	from flask.ext.bootstrap import Bootstrap
+	bootstrap=Bootstrap(app)
